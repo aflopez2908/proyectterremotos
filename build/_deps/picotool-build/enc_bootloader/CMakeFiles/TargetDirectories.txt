@@ -1,0 +1,2 @@
+/home/kali/pico/serv_http_esp8266/build/_deps/picotool-build/enc_bootloader/CMakeFiles/edit_cache.dir
+/home/kali/pico/serv_http_esp8266/build/_deps/picotool-build/enc_bootloader/CMakeFiles/rebuild_cache.dir

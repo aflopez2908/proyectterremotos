@@ -1,0 +1,7 @@
+/home/kali/pico/serv_http_esp8266/build/_deps/picotool/picotool
+/home/kali/pico/serv_http_esp8266/build/_deps/picotool/picotoolTargets.cmake
+/home/kali/pico/serv_http_esp8266/build/_deps/picotool/picotoolTargets-release.cmake
+/home/kali/pico/serv_http_esp8266/build/_deps/picotool/picotoolConfig.cmake
+/home/kali/pico/serv_http_esp8266/build/_deps/picotool/picotoolConfigVersion.cmake
+/home/kali/pico/serv_http_esp8266/build/_deps/picotool/enc_bootloader.elf
+/home/kali/pico/serv_http_esp8266/build/_deps/picotool/enc_bootloader_mbedtls.elf
