@@ -58,7 +58,7 @@ namespace cfg {
     inline constexpr int  MORSE_MAX_LEN    = 64;        
 
     // ===== API Externa =====
-    inline constexpr char API_HOST[]       = "10.148.69.46";  // IP de tu computadora en la red WiFi
+    inline constexpr char API_HOST[]       = "10.79.128.46";  // IP de tu computadora en la red WiFi
     inline constexpr int  API_PORT         = 3000;             
     inline constexpr char API_ENDPOINT[]   = "/api/pico/sensor-data";
     inline constexpr char DEVICE_ID[]      = "pico_sensor_01";
