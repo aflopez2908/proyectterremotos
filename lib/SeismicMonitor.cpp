@@ -84,7 +84,15 @@ void SeismicMonitor::loop() {
         }
     }
     
-    // 2. Enviar estado periódico al API
+    // 2. Enviar lecturas continuas del sensor al API (cada 5 segundos)
+    if (current_time - last_api_send >= cfg::API_SEND_INTERVAL) {
+        if (is_wifi_connected()) {
+            send_continuous_sensor_data_to_api(data);
+            last_api_send = current_time;
+        }
+    }
+    
+    // 3. Enviar estado periódico al API
     if (current_time - last_status_send >= cfg::STATUS_SEND_INTERVAL) {
         if (is_wifi_connected()) {
             send_status_to_api();
@@ -131,15 +139,35 @@ bool SeismicMonitor::send_sensor_data_to_api(const SeismicEvent& event) {
     char json_buffer[512];
     format_sensor_data_json(event, json_buffer, sizeof(json_buffer));
     
-    printf("[SeismicMonitor] Enviando datos al API: %s\n", json_buffer);
+    printf("[SeismicMonitor] Enviando evento sísmico al API: %s\n", json_buffer);
     
     // Usar el método del servidor para enviar datos
     bool success = server->http_post_json(cfg::API_HOST, cfg::API_PORT, cfg::API_ENDPOINT, json_buffer);
     
     if (success) {
-        printf("[SeismicMonitor] Datos enviados exitosamente\n");
+        printf("[SeismicMonitor] Evento sísmico enviado exitosamente\n");
     } else {
-        printf("[SeismicMonitor] Error enviando datos al API\n");
+        printf("[SeismicMonitor] Error enviando evento sísmico al API\n");
+    }
+    
+    return success;
+}
+
+bool SeismicMonitor::send_continuous_sensor_data_to_api(const SensorData& data) {
+    if (!server) return false;
+    
+    char json_buffer[512];
+    format_continuous_sensor_data_json(data, json_buffer, sizeof(json_buffer));
+    
+    printf("[SeismicMonitor] Enviando datos continuos al API\n");
+    
+    // Usar el método del servidor para enviar datos
+    bool success = server->http_post_json(cfg::API_HOST, cfg::API_PORT, cfg::API_ENDPOINT, json_buffer);
+    
+    if (success) {
+        printf("[SeismicMonitor] Datos continuos enviados exitosamente\n");
+    } else {
+        printf("[SeismicMonitor] Error enviando datos continuos al API\n");
     }
     
     return success;
@@ -205,6 +233,33 @@ void SeismicMonitor::format_sensor_data_json(const SeismicEvent& event, char* js
         event.data.magnitude,
         event.event_type,
         event.is_significant ? "true" : "false"
+    );
+}
+
+void SeismicMonitor::format_continuous_sensor_data_json(const SensorData& data, char* json_buffer, size_t buffer_size) {
+    snprintf(json_buffer, buffer_size,
+        "{"
+        "\"device_id\":\"%s\","
+        "\"timestamp\":%lu,"
+        "\"acceleration_x\":%.6f,"
+        "\"acceleration_y\":%.6f,"
+        "\"acceleration_z\":%.6f,"
+        "\"gyro_x\":%.3f,"
+        "\"gyro_y\":%.3f,"
+        "\"gyro_z\":%.3f,"
+        "\"magnitude\":%.6f,"
+        "\"event_type\":\"normal\","
+        "\"is_significant\":false"
+        "}",
+        cfg::DEVICE_ID,
+        (unsigned long)data.timestamp,
+        data.accel_x,
+        data.accel_y,
+        data.accel_z,
+        data.gyro_x,
+        data.gyro_y,
+        data.gyro_z,
+        data.magnitude
     );
 }
 

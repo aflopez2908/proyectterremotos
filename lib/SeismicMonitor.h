@@ -36,6 +36,7 @@ private:
     
     // Métodos privados
     bool send_sensor_data_to_api(const SeismicEvent& event);
+    bool send_continuous_sensor_data_to_api(const SensorData& data);
     bool send_status_to_api();
     void add_to_buffer(const SensorData& data);
     float calculate_average_magnitude(int samples = 10) const;
@@ -43,6 +44,7 @@ private:
     
     // Formatear datos para JSON
     void format_sensor_data_json(const SeismicEvent& event, char* json_buffer, size_t buffer_size);
+    void format_continuous_sensor_data_json(const SensorData& data, char* json_buffer, size_t buffer_size);
 
 public:
     SeismicMonitor(MPU6050* mpu_sensor, Esp8266HttpServer* http_server);
