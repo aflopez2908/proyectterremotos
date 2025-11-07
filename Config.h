@@ -11,7 +11,7 @@ namespace cfg {
 
     // ===== UART hacia ESP8266 =====
     inline constexpr int      UART_INDEX    = 1;        // uart1 (GP4/GP5)
-    inline constexpr uint32_t UART_BAUD     = 9600;     // 9600 baudios para ESP8266
+    inline constexpr uint32_t UART_BAUD     = 115200;   // 115200 baudios (configuración estándar ESP8266)
     inline constexpr int      UART_TX_PIN   = 4;        // Pico GP4 TX -> ESP RX
     inline constexpr int      UART_RX_PIN   = 5;        // Pico GP5 RX <- ESP TX
     inline uart_inst_t* UART() { return (UART_INDEX == 0) ? uart0 : uart1; }
@@ -58,8 +58,8 @@ namespace cfg {
     inline constexpr int  MORSE_MAX_LEN    = 64;        
 
     // ===== API Externa =====
-    inline constexpr char API_HOST[]       = "192.168.56.1"; 
-    inline constexpr int  API_PORT         = 3000;           
+    inline constexpr char API_HOST[]       = "10.148.69.46";  // IP de tu computadora en la red WiFi
+    inline constexpr int  API_PORT         = 3000;             
     inline constexpr char API_ENDPOINT[]   = "/api/pico/sensor-data";
     inline constexpr char DEVICE_ID[]      = "pico_sensor_01";
     
@@ -70,9 +70,9 @@ namespace cfg {
     inline constexpr int   I2C_BAUD_RATE   = 400000;      
     inline constexpr uint8_t MPU6050_ADDR  = 0x68;        
     
-    // Umbrales de detección
-    inline constexpr float EARTHQUAKE_THRESHOLD = 15.0f; 
-    inline constexpr float VIBRATION_THRESHOLD  = 5.0f;  
+    // Umbrales de detección (ajustados para detectar movimientos reales)
+    inline constexpr float EARTHQUAKE_THRESHOLD = 3.0f;  // m/s² (~0.3g) - movimiento fuerte
+    inline constexpr float VIBRATION_THRESHOLD  = 1.5f;  // m/s² (~0.15g) - movimiento suave
     inline constexpr int   SENSOR_READ_INTERVAL = 100;   
     inline constexpr int   API_SEND_INTERVAL   = 5000;   
     inline constexpr int   STATUS_SEND_INTERVAL = 30000; 
