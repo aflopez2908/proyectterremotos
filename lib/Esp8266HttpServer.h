@@ -7,10 +7,16 @@
 #include "hardware/uart.h"
 #include "hardware/gpio.h"
 #include "Config.h"
-#include "web_page.hpp"
+#include "lib/MPU6050.h"  // Para SensorData
 
 class Esp8266HttpServer {
 public:
+    // ... existing methods ...
+
+    // Establecer datos del sensor para API
+    void set_sensor_data(const SensorData& data, bool sensor_ok);
+
+    // ... existing methods ...
     Esp8266HttpServer();
 
     // Inicializa UART, asocia Wi-Fi y levanta CIPSERVER.
@@ -35,6 +41,8 @@ public:
 private:
     bool get_buzzer = false;
     uint32_t last_api_send = 0;
+    SensorData current_sensor_data;
+    bool sensor_ok = false;
 
     // --- Helpers UART/AT ---
     void uart_send_raw(const char* s);

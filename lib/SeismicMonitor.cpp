@@ -48,6 +48,12 @@ void SeismicMonitor::loop() {
             // Agregar al buffer
             add_to_buffer(data);
             
+            // Imprimir datos del sensor en terminal
+            printf("[MPU6050] Accel: X=%.3f, Y=%.3f, Z=%.3f m/s² | Gyro: X=%.2f, Y=%.2f, Z=%.2f °/s | Mag: %.3f m/s²\n",
+                   data.accel_x, data.accel_y, data.accel_z,
+                   data.gyro_x, data.gyro_y, data.gyro_z,
+                   data.magnitude);
+            
             // Verificar si es un evento significativo
             if (sensor->is_significant_movement(data, cfg::VIBRATION_THRESHOLD)) {
                 SeismicEvent event;
@@ -231,7 +237,19 @@ void SeismicMonitor::reset_error_count() {
     printf("[SeismicMonitor] Contador de errores reiniciado\n");
 }
 
-void SeismicMonitor::print_sensor_status() {
+SensorData SeismicMonitor::get_current_sensor_data() const {
+    if (get_buffer_count() == 0) {
+        SensorData empty = {0};
+        return empty;
+    }
+    
+    int last_idx = (buffer_index - 1 + BUFFER_SIZE) % BUFFER_SIZE;
+    return sensor_buffer[last_idx];
+}
+
+bool SeismicMonitor::is_sensor_ok() const {
+    return sensor_initialized && consecutive_errors < MAX_CONSECUTIVE_ERRORS / 2;
+}
     printf("\n===== Estado del Monitor Sísmico =====\n");
     printf("Sensor inicializado: %s\n", sensor_initialized ? "Sí" : "No");
     printf("Sensor OK: %s\n", is_sensor_ok() ? "Sí" : "No");

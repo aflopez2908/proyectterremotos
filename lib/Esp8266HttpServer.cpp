@@ -5,30 +5,22 @@
 #include <string_view>
 #include <cmath>
 
-// --- Helpers Morse / URL ---
+// --- Helpers URL ---
 static inline int hexval(int c){ if(c>='0'&&c<='9') return c-'0'; if(c>='A'&&c<='F') return 10+c-'A'; if(c>='a'&&c<='f') return 10+c-'a'; return -1; }
 static void url_decode_inplace(char* s){ char* w=s; for(char* r=s; *r; ){ if(*r=='%'){ int h1=hexval(*(r+1)), h2=hexval(*(r+2)); if(h1>=0&&h2>=0){ *w++=(char)((h1<<4)|h2); r+=3; } else { *w++=*r++; } } else { *w++= (*r=='+') ? ' ' : *r; r++; } } *w='\0'; }
-static const char* morse_for(char ch){
-    switch(std::toupper((unsigned char)ch)){
-        case 'A': return ".-";    case 'B': return "-...";  case 'C': return "-.-.";  case 'D': return "-..";   case 'E': return ".";
-        case 'F': return "..-.";  case 'G': return "--.";   case 'H': return "....";  case 'I': return "..";    case 'J': return ".---";
-        case 'K': return "-.-";   case 'L': return ".-..";  case 'M': return "--";    case 'N': return "-.";    case 'O': return "---";
-        case 'P': return ".--.";  case 'Q': return "--.-";  case 'R': return ".-.";   case 'S': return "...";   case 'T': return "-";
-        case 'U': return "..-";   case 'V': return "...-";  case 'W': return ".--";   case 'X': return "-..-";  case 'Y': return "-.--";
-        case 'Z': return "--..";  case '0': return "-----"; case '1': return ".----"; case '2': return "..---"; case '3': return "...--";
-        case '4': return "....-"; case '5': return "....."; case '6': return "-...."; case '7': return "--..."; case '8': return "---..";
-        case '9': return "----."; default: return nullptr; }
-}
 
 using namespace cfg;
 
-Esp8266HttpServer::Esp8266HttpServer() {}
+Esp8266HttpServer::Esp8266HttpServer() : sensor_ok(false) {
+    memset(&current_sensor_data, 0, sizeof(current_sensor_data));
+}
+
+void Esp8266HttpServer::set_sensor_data(const SensorData& data, bool ok) {
+    current_sensor_data = data;
+    sensor_ok = ok;
+}
 
 bool Esp8266HttpServer::begin() {
-
-    gpio_init(cfg::BUZZER_PIN);
-    gpio_set_dir(cfg::BUZZER_PIN, GPIO_OUT);
-    gpio_put(cfg::BUZZER_PIN, cfg::BUZZER_ACTIVE_LOW ? 1 : 0);  // buzzer apagado por defecto
 
     printf("[UART] Probando enlace a %u...\n", (unsigned)UART_BAUD);
     flush_uart_quiet(100);
@@ -56,12 +48,18 @@ bool Esp8266HttpServer::begin() {
     const char* toks[] = {"OK\r\n", "FAIL\r\n", "ERROR\r\n"};
     int r = wait_for_any(toks, 3, WIFI_JOIN_TIMEOUT_MS);
     if (r != 0) {
-        printf("[WiFi] ❌ CWJAP falló (%s).\n", r == 1 ? "FAIL" : r == 2 ? "ERROR" : "TIMEOUT");
+        printf("[WiFi] ❌ CWJAP falló con respuesta: %d (%s)\n", r, 
+               r == 1 ? "FAIL" : r == 2 ? "ERROR" : "TIMEOUT");
+        printf("[WiFi] Verifica SSID '%s' y contraseña\n", WIFI_SSID);
         return false;
     }
-    printf("[WiFi] ✅ Asociado.\n");
+    printf("[WiFi] ✅ Conectado exitosamente a '%s'\n", WIFI_SSID);
 
-    send_at("AT+CIFSR"); flush_uart_quiet(400);
+    // Obtener dirección IP
+    printf("[WiFi] Obteniendo dirección IP...\n");
+    send_at("AT+CIFSR");
+    flush_uart_quiet(2000); // Esperar respuesta con IP
+    
     return start_server();
 }
 
@@ -87,17 +85,6 @@ bool Esp8266HttpServer::begin() {
                 
                 // Enviar datos a la API
                 send_earthquake_data(accel_x, accel_y, accel_z, magnitude, is_earthquake);
-                
-                // Activar buzzer si es terremoto
-                if (is_earthquake) {
-                    gpio_put(cfg::BUZZER_PIN, cfg::BUZZER_ACTIVE_LOW ? 0 : 1);
-                    sleep_ms(200);
-                    gpio_put(cfg::BUZZER_PIN, cfg::BUZZER_ACTIVE_LOW ? 1 : 0);
-                    sleep_ms(100);
-                    gpio_put(cfg::BUZZER_PIN, cfg::BUZZER_ACTIVE_LOW ? 0 : 1);
-                    sleep_ms(200);
-                    gpio_put(cfg::BUZZER_PIN, cfg::BUZZER_ACTIVE_LOW ? 1 : 0);
-                }
             }
         }
         
@@ -115,14 +102,15 @@ bool Esp8266HttpServer::begin() {
         }
         if (ev != 1) continue;
 
+        printf("[HTTP] Nueva conexión ID=%d, %d bytes\n", id, len);
+
         int to_read = len; if (to_read > REQ_BUFFER_SIZE) to_read = REQ_BUFFER_SIZE;
         int got = read_bytes(reqbuf_, to_read, 3000);
         if (got <= 0) continue;
 
         bool get_root = false;
-        bool get_buzzer = false;
         bool get_favicon = false;
-        bool get_morse = false;
+        bool get_api_sensor = false;
         const uint8_t* p_space = nullptr;
         if (got >= 5 && std::memcmp(reqbuf_, "GET /", 5) == 0) {
             p_space  = (const uint8_t*)std::memchr(reqbuf_, ' ', got); // space after path
@@ -132,11 +120,8 @@ bool Esp8266HttpServer::begin() {
                     const uint8_t* pe = (const uint8_t*)std::memchr(pb, ' ', got - (pb - reqbuf_));
                     size_t plen = pe ? (size_t)(pe - pb) : 1;
                     get_root = (plen == 1); // "/"
-                    if (plen >= 7 && std::memcmp(pb, "/buzzer", 7) == 0) {
-                        get_buzzer = (plen == 7) || pb[7] == '?' || pb[7] == '/';
-                    }
-                    if (plen >= 6 && std::memcmp(pb, "/morse", 6) == 0) {
-                        get_morse = true;
+                    if (plen >= 11 && std::memcmp(pb, "/api/sensor", 11) == 0) {
+                        get_api_sensor = true;
                     }
                     if (plen >= 12 && std::memcmp(pb, "/favicon.ico", 12) == 0) {
                         get_favicon = true;
@@ -146,84 +131,8 @@ bool Esp8266HttpServer::begin() {
         }
         if (get_root) {
             send_http_200(id);
-        } else if (get_buzzer) {
-            // Manejo de buzzer: activo (nivel) o pasivo (necesita tono)
-            if (cfg::BUZZER_IS_PASSIVE) {
-                const int freq = cfg::BUZZER_TONE_HZ;
-                const int period_us = 1000000 / (freq > 0 ? freq : 2000);
-                const absolute_time_t until = make_timeout_time_ms(cfg::BUZZER_PULSE_MS);
-                bool level = cfg::BUZZER_ACTIVE_LOW ? true : false;
-                while (!time_reached(until)) {
-                    gpio_put(cfg::BUZZER_PIN, level);
-                    sleep_us(period_us/2);
-                    gpio_put(cfg::BUZZER_PIN, !level);
-                    sleep_us(period_us/2);
-                }
-                gpio_put(cfg::BUZZER_PIN, cfg::BUZZER_ACTIVE_LOW ? 1 : 0);
-            } else {
-                gpio_put(cfg::BUZZER_PIN, cfg::BUZZER_ACTIVE_LOW ? 0 : 1);
-                sleep_ms(cfg::BUZZER_PULSE_MS);
-                gpio_put(cfg::BUZZER_PIN, cfg::BUZZER_ACTIVE_LOW ? 1 : 0);
-            }
-            send_http_200(id);
-        } else if (get_morse) {
-            // Extraer path completo
-            const uint8_t* pb = p_space ? (const uint8_t*)std::memchr(reqbuf_, '/', got) : nullptr;
-            const uint8_t* pe = p_space;
-            size_t plen = (pb && pe && pe>pb) ? (size_t)(pe - pb) : 0;
-            char path[192] = {0};
-            if (plen >= sizeof(path)) plen = sizeof(path)-1;
-            if (pb && plen) std::memcpy(path, pb, plen);
-            // Buscar query tras "/morse"
-            char* q = std::strchr(path, '?');
-            char* msg = nullptr;
-            if (q) {
-                // soporta ?text=... o ?msg=...
-                if (std::strncmp(q+1, "text=", 5) == 0) msg = q+1+5;
-                else if (std::strncmp(q+1, "msg=", 4) == 0) msg = q+1+4;
-                else msg = q+1; // todo el query como mensaje
-                url_decode_inplace(msg);
-            }
-            // Limitar tamaño
-            char buf[cfg::MORSE_MAX_LEN+1]; buf[0]='\0';
-            if (msg && *msg) {
-                std::strncpy(buf, msg, cfg::MORSE_MAX_LEN);
-                buf[cfg::MORSE_MAX_LEN] = '\0';
-            } else {
-                std::snprintf(buf, sizeof(buf), "%s", "SOS");
-            }
-            // Enviar en Morse (buzzer activo en bajo: mark=low, space=high)
-            const int U = cfg::MORSE_UNIT_MS;
-            auto mark_on = [&](){ gpio_put(cfg::BUZZER_PIN, cfg::BUZZER_ACTIVE_LOW ? 0 : 1); };
-            auto mark_off= [&](){ gpio_put(cfg::BUZZER_PIN, cfg::BUZZER_ACTIVE_LOW ? 1 : 0); };
-            for (size_t i=0; buf[i]; ++i) {
-                char ch = buf[i];
-                if (ch == ' ') { sleep_ms(7*U); continue; }
-                const char* code = morse_for(ch);
-                if (!code) { continue; }
-                size_t clen = std::strlen(code);
-                for (size_t k=0; k<clen; ++k) {
-                    mark_on();
-                    sleep_ms(code[k]=='.' ? U : 3*U);
-                    mark_off();
-                    if (k+1 < clen) sleep_ms(U); // gap intra-caracter
-                }
-                // gap entre letras
-                sleep_ms(3*U);
-            }
-            // Responder 200 OK simple
-            const char body[] = "OK";
-            char hdr[160];
-            int hlen = std::snprintf(hdr,sizeof(hdr),
-                "HTTP/1.1 200 OK\r\n"
-                "Content-Type: text/plain; charset=utf-8\r\n"
-                "Content-Length: %u\r\n"
-                "Connection: close\r\n\r\n", (unsigned)sizeof(body)-1);
-            int total = hlen + (int)sizeof(body)-1;
-            char cmd2[48]; std::snprintf(cmd2,sizeof(cmd2),"AT+CIPSEND=%d,%d", id, total);
-            send_at(cmd2);
-            if (wait_for(">", 2000)) { uart_send_raw(hdr); uart_send_raw(body); wait_for("SEND OK\r\n", 3000); }
-            std::snprintf(cmd2,sizeof(cmd2),"AT+CIPCLOSE=%d",id); send_at(cmd2);
+        } else if (get_api_sensor) {
+            send_api_sensor_json(id);
         } else if (get_favicon) {
             const char hdr[] =
                 "HTTP/1.1 204 No Content\r\n"
@@ -385,11 +294,15 @@ void Esp8266HttpServer::send_http_404(int id){
 }
 
 bool Esp8266HttpServer::start_server(){
+    printf("[HTTP] Iniciando servidor HTTP...\n");
+    
     send_at("AT+CIPMUX=1");
     if (!wait_for("OK\r\n", 800)) {
         const char* tk[]={"no change\r\n"};
         wait_for_any(tk,1,400);
     }
+    printf("[HTTP] CIPMUX configurado\n");
+    
     send_at("AT+CIPSERVER=0");
     wait_for("OK\r\n", 600); // ignora si no llega
 
@@ -398,17 +311,66 @@ bool Esp8266HttpServer::start_server(){
     send_at(cmd);
     const char* toks_srv[]={"OK\r\n","no change\r\n"};
     int tr = wait_for_any(toks_srv, 2, 1500);
-    if (tr < 0) { printf("[HTTP] ❌ CIPSERVER no arrancó.\n"); return false; }
+    if (tr < 0) { 
+        printf("[HTTP] ❌ CIPSERVER no arrancó (timeout)\n"); 
+        return false; 
+    }
+    printf("[HTTP] CIPSERVER iniciado en puerto %d\n", HTTP_PORT);
 
     std::snprintf(cmd,sizeof(cmd),"AT+CIPSTO=%d", SERVER_IDLE_TIMEOUT_S);
     send_at(cmd); wait_for("OK\r\n", 800);
 
-    send_at("AT+CIPSTATUS"); flush_uart_quiet(300);
-    printf("[HTTP] Servidor en puerto %d listo.\n", HTTP_PORT);
+    send_at("AT+CIPSTATUS"); 
+    flush_uart_quiet(500);
+    printf("[HTTP] Servidor listo y esperando conexiones\n");
     return true;
 }
 
-// ===== CLIENTE HTTP PARA API EXTERNA =====
+void Esp8266HttpServer::send_api_sensor_json(int id) {
+    char json_body[256];
+    int len = std::snprintf(json_body, sizeof(json_body),
+        "{"
+        "\"accel_x\":%.6f,"
+        "\"accel_y\":%.6f,"
+        "\"accel_z\":%.6f,"
+        "\"gyro_x\":%.3f,"
+        "\"gyro_y\":%.3f,"
+        "\"gyro_z\":%.3f,"
+        "\"magnitude\":%.6f,"
+        "\"timestamp\":%lu,"
+        "\"status\":\"%s\""
+        "}",
+        current_sensor_data.accel_x,
+        current_sensor_data.accel_y,
+        current_sensor_data.accel_z,
+        current_sensor_data.gyro_x,
+        current_sensor_data.gyro_y,
+        current_sensor_data.gyro_z,
+        current_sensor_data.magnitude,
+        (unsigned long)current_sensor_data.timestamp,
+        sensor_ok ? "online" : "offline"
+    );
+    
+    char hdr[160];
+    int hlen = std::snprintf(hdr, sizeof(hdr),
+        "HTTP/1.1 200 OK\r\n"
+        "Content-Type: application/json; charset=utf-8\r\n"
+        "Content-Length: %d\r\n"
+        "Access-Control-Allow-Origin: *\r\n"
+        "Connection: close\r\n\r\n",
+        len);
+    
+    int total = hlen + len;
+    char cmd[48]; std::snprintf(cmd, sizeof(cmd), "AT+CIPSEND=%d,%d", id, total);
+    send_at(cmd);
+    if (wait_for(">", 2000)) {
+        uart_send_raw(hdr);
+        uart_send_raw(json_body);
+        wait_for("SEND OK\r\n", 3000);
+    }
+    std::snprintf(cmd, sizeof(cmd), "AT+CIPCLOSE=%d", id);
+    send_at(cmd);
+}
 
 bool Esp8266HttpServer::http_post_json(const char* host, int port, const char* path, const char* json_data) {
     char cmd[128];

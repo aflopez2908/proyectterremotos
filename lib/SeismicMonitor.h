@@ -63,7 +63,9 @@ public:
     void reset_error_count();
     
     // Debug
-    void print_sensor_status();
+    // Obtener los últimos datos del sensor
+    SensorData get_current_sensor_data() const;
+    bool is_sensor_ok() const;
 };
 
 #endif // SEISMIC_MONITOR_H_

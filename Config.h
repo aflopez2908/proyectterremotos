@@ -44,18 +44,7 @@ namespace cfg {
     inline constexpr int  PIN_EN_CH_PD      = 7;        // GP7 - Pin ENABLE del ESP8266 (HIGH para habilitar)
     inline constexpr int  PIN_RST           = -1;       // No conectado 
     inline constexpr int  PIN_GPIO0         = -1;       // Conectado a 3.3V (modo normal)
-    inline constexpr int  PIN_GPIO2         = 6;        // GP6 - Pin IO2 del ESP8266 (HIGH para boot normal)
-
-    // ===== Buzzer =====
-    inline constexpr int BUZZER_PIN = 15; // Pin GPIO para el buzzer
-    inline constexpr int BUZZER_PULSE_MS = 500; 
-    inline constexpr bool BUZZER_IS_PASSIVE = false;    
-    inline constexpr bool BUZZER_ACTIVE_LOW = true;     
-    inline constexpr int  BUZZER_TONE_HZ   = 800;       
-
-    // Morse
-    inline constexpr int  MORSE_UNIT_MS    = 120;       
-    inline constexpr int  MORSE_MAX_LEN    = 64;        
+    inline constexpr int  PIN_GPIO2         = 6;        // GP6 - Pin IO2 del ESP8266 (HIGH para boot normal)        
 
     // ===== API Externa =====
     inline constexpr char API_HOST[]       = "10.79.128.46";  // IP de tu computadora en la red WiFi

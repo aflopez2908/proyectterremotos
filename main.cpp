@@ -81,14 +81,17 @@ int main() {
         // 2. Procesar monitor sísmico (lectura de sensor y envío de datos)
         seismic_monitor.loop();
         
-        // 3. Imprimir estado cada minuto (opcional, para debug)
+        // 3. Actualizar datos del sensor en el servidor para API
+        server.set_sensor_data(seismic_monitor.get_current_sensor_data(), seismic_monitor.is_sensor_ok());
+        
+        // 4. Imprimir estado cada minuto (opcional, para debug)
         uint64_t current_time = to_ms_since_boot(get_absolute_time());
         if (current_time - last_status_print >= STATUS_PRINT_INTERVAL) {
             seismic_monitor.print_sensor_status();
             last_status_print = current_time;
         }
         
-        // 4. Pequeña pausa para no saturar el CPU
+        // 5. Pequeña pausa para no saturar el CPU
         sleep_ms(10);
     }
     
