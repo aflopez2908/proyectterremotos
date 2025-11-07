@@ -65,30 +65,9 @@ bool Esp8266HttpServer::begin() {
 }
 
 [[noreturn]] void Esp8266HttpServer::loop() {
-    uint32_t last_sensor_read = 0;
+    printf("[HTTP] Servidor listo y esperando conexiones\n");
     
     while (true) {
-        // ===== MONITOREO SÍSMICO =====
-        uint32_t now = to_ms_since_boot(get_absolute_time());
-        if (now - last_sensor_read >= cfg::SENSOR_READ_INTERVAL) {
-            last_sensor_read = now;
-            
-            float accel_x, accel_y, accel_z;
-            read_mpu6050(&accel_x, &accel_y, &accel_z);
-            
-            float magnitude = calculate_magnitude(accel_x, accel_y, accel_z);
-            bool is_earthquake = magnitude > cfg::EARTHQUAKE_THRESHOLD;
-            bool is_vibration = magnitude > cfg::VIBRATION_THRESHOLD;
-            
-            if (is_earthquake || is_vibration) {
-                printf("[SENSOR] Magnitud: %.2f m/s² %s\n", magnitude,
-                       is_earthquake ? "🚨 TERREMOTO!" : "📳 vibración");
-                
-                // Enviar datos a la API
-                send_earthquake_data(accel_x, accel_y, accel_z, magnitude, is_earthquake);
-            }
-        }
-        
         // ===== MANEJO HTTP =====
         int id = -1, len = 0;
         int ev = wait_ipd_or_ready(&id, &len, 100); // Timeout más corto para no bloquear sensor
@@ -108,6 +87,21 @@ bool Esp8266HttpServer::begin() {
         int to_read = len; if (to_read > REQ_BUFFER_SIZE) to_read = REQ_BUFFER_SIZE;
         int got = read_bytes(reqbuf_, to_read, 3000);
         if (got <= 0) continue;
+
+        // Debug: imprimir la petición recibida
+        printf("[HTTP] Petición: ");
+        for(int i = 0; i < got && i < 50; i++) {
+            if (reqbuf_[i] >= 32 && reqbuf_[i] <= 126) {
+                putchar(reqbuf_[i]);
+            } else if (reqbuf_[i] == '\r') {
+                printf("\\r");
+            } else if (reqbuf_[i] == '\n') {
+                printf("\\n");
+            } else {
+                printf("\\x%02X", reqbuf_[i]);
+            }
+        }
+        printf("\n");
 
         bool get_root = false;
         bool get_favicon = false;
@@ -130,9 +124,17 @@ bool Esp8266HttpServer::begin() {
                 }
             }
         }
+
+        printf("[HTTP] Ruta detectada: %s\n", 
+               get_root ? "GET /" : 
+               get_api_sensor ? "GET /api/sensor" : 
+               get_favicon ? "GET /favicon.ico" : "OTRA");
+
         if (get_root) {
+            printf("[HTTP] Enviando página web HTML\n");
             send_http_200(id);
         } else if (get_api_sensor) {
+            printf("[HTTP] Enviando datos JSON del sensor\n");
             send_api_sensor_json(id);
         } else if (get_favicon) {
             const char hdr[] =
@@ -143,6 +145,7 @@ bool Esp8266HttpServer::begin() {
             if (wait_for(">", 1000)) { uart_send_raw(hdr); wait_for("SEND OK\r\n", 1500); }
             std::snprintf(cmd,sizeof(cmd),"AT+CIPCLOSE=%d",id); send_at(cmd);
         } else {
+            printf("[HTTP] Enviando 404 Not Found\n");
             send_http_404(id);
         }
     }

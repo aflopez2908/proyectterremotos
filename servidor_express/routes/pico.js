@@ -127,7 +127,7 @@ router.get('/status', async (req, res) => {
   try {
     console.log('📊 Verificando estado del Pico');
     
-    const result = await sendToPico('/');
+    const result = await sendToPico('/api/sensor');
     
     if (result.success) {
       res.json({
@@ -136,7 +136,8 @@ router.get('/status', async (req, res) => {
         pico_ip: PICO_IP,
         pico_port: PICO_PORT,
         timestamp: new Date().toISOString(),
-        response_status: result.status
+        response_status: result.status,
+        sensor_data: result.data
       });
     } else {
       res.status(503).json({

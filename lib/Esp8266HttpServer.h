@@ -39,8 +39,6 @@ public:
                        const char* json_data);
 
 private:
-    bool get_buzzer = false;
-    uint32_t last_api_send = 0;
     SensorData current_sensor_data;
     bool sensor_ok = false;
 
