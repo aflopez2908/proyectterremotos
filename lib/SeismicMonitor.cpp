@@ -102,7 +102,7 @@ void SeismicMonitor::add_to_buffer(const SensorData& data) {
     }
 }
 
-float SeismicMonitor::calculate_average_magnitude(int samples) {
+float SeismicMonitor::calculate_average_magnitude(int samples) const {
     if (!buffer_full && buffer_index == 0) return 0.0f;
     
     int actual_samples = buffer_full ? BUFFER_SIZE : buffer_index;
@@ -212,7 +212,7 @@ int SeismicMonitor::get_buffer_count() const {
     return buffer_full ? BUFFER_SIZE : buffer_index;
 }
 
-float SeismicMonitor::get_current_magnitude() {
+float SeismicMonitor::get_current_magnitude() const {
     if (get_buffer_count() == 0) return 0.0f;
     
     int last_idx = (buffer_index - 1 + BUFFER_SIZE) % BUFFER_SIZE;
@@ -239,7 +239,7 @@ void SeismicMonitor::reset_error_count() {
 
 SensorData SeismicMonitor::get_current_sensor_data() const {
     if (get_buffer_count() == 0) {
-        SensorData empty = {0};
+        SensorData empty = {0, 0, 0, 0, 0, 0, 0, 0};
         return empty;
     }
     
@@ -247,9 +247,7 @@ SensorData SeismicMonitor::get_current_sensor_data() const {
     return sensor_buffer[last_idx];
 }
 
-bool SeismicMonitor::is_sensor_ok() const {
-    return sensor_initialized && consecutive_errors < MAX_CONSECUTIVE_ERRORS / 2;
-}
+void SeismicMonitor::print_sensor_status() const {
     printf("\n===== Estado del Monitor Sísmico =====\n");
     printf("Sensor inicializado: %s\n", sensor_initialized ? "Sí" : "No");
     printf("Sensor OK: %s\n", is_sensor_ok() ? "Sí" : "No");

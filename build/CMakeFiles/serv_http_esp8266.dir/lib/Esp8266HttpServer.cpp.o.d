@@ -106,10 +106,11 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o: \
  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
  /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /home/kali/pico/serv_http_esp8266/Config.h \
- /home/kali/pico/serv_http_esp8266/web_page.hpp \
- /usr/include/newlib/c++/14.2.1/cstdio /usr/include/newlib/stdio.h \
- /usr/include/newlib/sys/stdio.h /usr/include/newlib/c++/14.2.1/cctype \
- /usr/include/newlib/ctype.h /usr/include/newlib/c++/14.2.1/cmath \
+ /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
+ /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /usr/include/newlib/c++/14.2.1/cmath \
  /usr/include/newlib/c++/14.2.1/math.h /usr/include/newlib/math.h \
  /usr/include/newlib/c++/14.2.1/bits/std_abs.h \
  /usr/include/newlib/c++/14.2.1/stdlib.h /usr/include/newlib/stdlib.h \
@@ -127,4 +128,8 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o: \
  /usr/include/newlib/c++/14.2.1/tr1/modified_bessel_func.tcc \
  /usr/include/newlib/c++/14.2.1/tr1/poly_hermite.tcc \
  /usr/include/newlib/c++/14.2.1/tr1/poly_laguerre.tcc \
- /usr/include/newlib/c++/14.2.1/tr1/riemann_zeta.tcc
+ /usr/include/newlib/c++/14.2.1/tr1/riemann_zeta.tcc \
+ /usr/include/newlib/c++/14.2.1/cstdio /usr/include/newlib/stdio.h \
+ /usr/include/newlib/sys/stdio.h /usr/include/newlib/c++/14.2.1/cctype \
+ /usr/include/newlib/ctype.h \
+ /home/kali/pico/serv_http_esp8266/lib/../web_page.hpp

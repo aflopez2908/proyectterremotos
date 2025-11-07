@@ -58,6 +58,7 @@ private:
     // HTTP con CIPMUX=1
     void send_http_200(int id);
     void send_http_404(int id);
+    void send_api_sensor_json(int id);
 
     // CIPMUX=1, CIPSERVER=1,80 (+ CIPSTO). Imprime estado.
     bool start_server();

@@ -107,7 +107,6 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: \
  /usr/include/newlib/c++/14.2.1/bits/cxxabi_forced.h \
  /usr/include/newlib/c++/14.2.1/bits/string_view.tcc \
  /home/kali/pico/serv_http_esp8266/Config.h \
- /home/kali/pico/serv_http_esp8266/web_page.hpp \
  /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
  /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
@@ -131,6 +130,7 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: \
  /usr/include/newlib/c++/14.2.1/tr1/poly_hermite.tcc \
  /usr/include/newlib/c++/14.2.1/tr1/poly_laguerre.tcc \
  /usr/include/newlib/c++/14.2.1/tr1/riemann_zeta.tcc \
+ /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
  /home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.h \
  /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
  /home/kali/pico/serv_http_esp8266/lib/../Config.h \

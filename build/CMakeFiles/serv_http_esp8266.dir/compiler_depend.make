@@ -3476,6 +3476,7 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o: /home/kali/pico/se
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
@@ -3484,6 +3485,7 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o: /home/kali/pico/se
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
@@ -3499,6 +3501,7 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o: /home/kali/pico/se
   /home/kali/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /home/kali/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
   /home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   /home/kali/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
   /home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
@@ -3512,8 +3515,9 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o: /home/kali/pico/se
   /home/kali/pico/serv_http_esp8266/Config.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  /home/kali/pico/serv_http_esp8266/lib/Esp8266HttpServer.h \
   /home/kali/pico/serv_http_esp8266/web_page.hpp \
+  /home/kali/pico/serv_http_esp8266/lib/Esp8266HttpServer.h \
+  /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/alloca.h \
@@ -3786,7 +3790,6 @@ CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o: /home/kali/pico/serv_
   /home/kali/pico/serv_http_esp8266/lib/Esp8266HttpServer.h \
   /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
   /home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.h \
-  /home/kali/pico/serv_http_esp8266/web_page.hpp \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/alloca.h \
@@ -3961,7 +3964,6 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
   /home/kali/pico/serv_http_esp8266/lib/Esp8266HttpServer.h \
   /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
   /home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.h \
-  /home/kali/pico/serv_http_esp8266/web_page.hpp \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/alloca.h \
@@ -4190,9 +4192,9 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
 
 /usr/include/newlib/c++/14.2.1/bit:
 
-/home/kali/pico/serv_http_esp8266/web_page.hpp:
-
 /home/kali/pico/serv_http_esp8266/lib/Esp8266HttpServer.h:
+
+/home/kali/pico/serv_http_esp8266/web_page.hpp:
 
 /home/kali/pico/serv_http_esp8266/Config.h:
 

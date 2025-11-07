@@ -38,7 +38,7 @@ private:
     bool send_sensor_data_to_api(const SeismicEvent& event);
     bool send_status_to_api();
     void add_to_buffer(const SensorData& data);
-    float calculate_average_magnitude(int samples = 10);
+    float calculate_average_magnitude(int samples = 10) const;
     bool is_wifi_connected();
     
     // Formatear datos para JSON
@@ -55,7 +55,7 @@ public:
     
     // Obtener estadísticas
     int get_buffer_count() const;
-    float get_current_magnitude();
+    float get_current_magnitude() const;
     bool is_sensor_ok() const;
     
     // Métodos de control manual
@@ -65,7 +65,7 @@ public:
     // Debug
     // Obtener los últimos datos del sensor
     SensorData get_current_sensor_data() const;
-    bool is_sensor_ok() const;
+    void print_sensor_status() const;
 };
 
 #endif // SEISMIC_MONITOR_H_

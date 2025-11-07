@@ -4,6 +4,7 @@
 #include <cctype>
 #include <string_view>
 #include <cmath>
+#include "../web_page.hpp"
 
 // --- Helpers URL ---
 static inline int hexval(int c){ if(c>='0'&&c<='9') return c-'0'; if(c>='A'&&c<='F') return 10+c-'A'; if(c>='a'&&c<='f') return 10+c-'a'; return -1; }
