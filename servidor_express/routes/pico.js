@@ -243,4 +243,76 @@ router.post('/sensor-data', async (req, res) => {
   }
 });
 
+// Endpoint para recibir estado del Pico
+router.post('/status', async (req, res) => {
+  try {
+    const {
+      device_id,
+      timestamp,
+      status,
+      sensor_ok,
+      avg_magnitude,
+      buffer_count,
+      errors
+    } = req.body;
+
+    console.log(`📊 Estado recibido del dispositivo ${device_id}:`);
+    console.log(`   - Estado: ${status}`);
+    console.log(`   - Sensor OK: ${sensor_ok}`);
+    console.log(`   - Magnitud promedio: ${avg_magnitude}`);
+    console.log(`   - Muestras en buffer: ${buffer_count}`);
+    console.log(`   - Errores: ${errors}`);
+
+    // Aquí podrías guardar el estado en una base de datos
+    // o hacer cualquier procesamiento adicional que necesites
+
+    res.json({
+      success: true,
+      message: 'Estado del dispositivo recibido correctamente',
+      received_at: new Date().toISOString(),
+      device_status: {
+        device_id,
+        status,
+        sensor_ok,
+        avg_magnitude,
+        buffer_count,
+        errors,
+        last_seen: new Date().toISOString()
+      }
+    });
+
+  } catch (error) {
+    console.error('Error procesando estado del dispositivo:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Error procesando estado del dispositivo',
+      message: error.message
+    });
+  }
+});
+
+// Endpoint GET para información del endpoint sensor-data (para pruebas)
+router.get('/sensor-data', (req, res) => {
+  res.json({
+    message: "Endpoint para recibir datos del sensor MPU6050",
+    method: "POST",
+    url: "/api/pico/sensor-data",
+    description: "Este endpoint recibe datos del sensor desde la Pico via HTTP POST",
+    required_fields: [
+      "device_id",
+      "acceleration_x", 
+      "acceleration_y",
+      "acceleration_z"
+    ],
+    optional_fields: [
+      "gyro_x",
+      "gyro_y", 
+      "gyro_z",
+      "temperature",
+      "timestamp"
+    ],
+    example_curl: `curl -X POST http://localhost:3000/api/pico/sensor-data -H "Content-Type: application/json" -d '{"device_id":"pico_sensor_01","acceleration_x":2.5,"acceleration_y":1.2,"acceleration_z":9.8}'`
+  });
+});
+
 module.exports = router;

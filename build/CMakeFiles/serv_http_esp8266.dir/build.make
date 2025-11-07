@@ -100,10 +100,38 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/pico/serv_http_esp8266/lib/Esp8266HttpServer.cpp -o CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.s
 
+CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o: CMakeFiles/serv_http_esp8266.dir/flags.make
+CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o: /home/kali/pico/serv_http_esp8266/lib/MPU6050.cpp
+CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o -MF CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o.d -o CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o -c /home/kali/pico/serv_http_esp8266/lib/MPU6050.cpp
+
+CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/pico/serv_http_esp8266/lib/MPU6050.cpp > CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.i
+
+CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/pico/serv_http_esp8266/lib/MPU6050.cpp -o CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.s
+
+CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o: CMakeFiles/serv_http_esp8266.dir/flags.make
+CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o: /home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.cpp
+CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o -MF CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o.d -o CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o -c /home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.cpp
+
+CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.cpp > CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.i
+
+CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.cpp -o CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.s
+
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -117,7 +145,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_std
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -131,7 +159,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: /home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
@@ -145,7 +173,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platfor
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i: cmake_force
@@ -159,7 +187,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_pla
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -173,7 +201,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_pla
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c.o: /home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c.o -c /home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -187,7 +215,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/hardware_cla
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -201,7 +229,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -215,7 +243,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -228,7 +256,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -242,7 +270,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/sem.c.o: /home/kali/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/sem.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/sem.c.o -c /home/kali/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -256,7 +284,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/se
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: /home/kali/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/lock_core.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/lock_core.c.o -c /home/kali/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -270,7 +298,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/lo
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/mutex.c.o: /home/kali/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/mutex.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/mutex.c.o -c /home/kali/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -284,7 +312,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/mu
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: /home/kali/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/critical_section.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/critical_section.c.o -c /home/kali/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -298,7 +326,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_sync/cr
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/time.c.o: /home/kali/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/time.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/time.c.o -c /home/kali/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -312,7 +340,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/ti
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: /home/kali/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /home/kali/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -326,7 +354,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_time/ti
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -340,7 +368,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/datetime.c.o: /home/kali/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/datetime.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/datetime.c.o -c /home/kali/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -354,7 +382,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/da
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/pheap.c.o: /home/kali/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/pheap.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/pheap.c.o -c /home/kali/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -368,7 +396,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/ph
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/queue.c.o: /home/kali/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/queue.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/queue.c.o -c /home/kali/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -382,7 +410,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/common/pico_util/qu
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -396,7 +424,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -410,7 +438,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -424,7 +452,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -438,7 +466,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -452,7 +480,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -466,7 +494,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -480,7 +508,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_boo
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -494,7 +522,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_boo
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -508,7 +536,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -522,7 +550,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fla
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -535,7 +563,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o   -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -549,7 +577,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -563,7 +591,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_run
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -577,7 +605,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_run
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -591,7 +619,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_run
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -604,7 +632,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_run
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /home/kali/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -617,7 +645,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_bit
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o   -c /home/kali/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
@@ -630,7 +658,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_div
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
@@ -644,7 +672,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_dou
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
@@ -658,7 +686,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_dou
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -671,7 +699,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_dou
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
@@ -684,7 +712,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_dou
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /home/kali/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -697,7 +725,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_int
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
@@ -711,7 +739,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flo
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
@@ -725,7 +753,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flo
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -738,7 +766,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flo
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
@@ -752,7 +780,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_flo
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -765,7 +793,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_mal
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /home/kali/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -779,7 +807,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_mem
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -793,7 +821,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_ato
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -807,7 +835,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -821,7 +849,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_sta
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -834,7 +862,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_pri
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building ASM object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /home/kali/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -848,7 +876,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_crt
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -862,7 +890,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cli
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -876,7 +904,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_std
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -890,7 +918,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_std
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -904,7 +932,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_std
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -918,7 +946,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_std
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -932,7 +960,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_uni
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -946,7 +974,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -960,7 +988,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -974,7 +1002,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portabl
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -988,7 +1016,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/portabl
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -1002,7 +1030,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -1016,7 +1044,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/device/
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -1030,7 +1058,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/a
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -1044,7 +1072,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1058,7 +1086,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/d
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1072,7 +1100,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/d
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1086,7 +1114,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/h
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1100,7 +1128,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/m
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1114,7 +1142,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/m
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1128,7 +1156,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/n
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1142,7 +1170,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/n
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1156,7 +1184,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/u
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1170,7 +1198,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/v
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1184,7 +1212,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/v
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1198,7 +1226,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1212,7 +1240,7 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1223,10 +1251,26 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
+CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/serv_http_esp8266.dir/flags.make
+CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/serv_http_esp8266.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -c /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+
+CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 # Object files for target serv_http_esp8266
 serv_http_esp8266_OBJECTS = \
 "CMakeFiles/serv_http_esp8266.dir/main.cpp.o" \
 "CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o" \
+"CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o" \
+"CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o" \
 "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
 "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
 "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
@@ -1307,13 +1351,16 @@ serv_http_esp8266_OBJECTS = \
 "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
 "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.o" \
 "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
-"CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+"CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
+"CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
 
 # External object files for target serv_http_esp8266
 serv_http_esp8266_EXTERNAL_OBJECTS =
 
 serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/main.cpp.o
 serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o
+serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o
+serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o
 serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
@@ -1395,11 +1442,12 @@ serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/
 serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
 serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
 serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/build.make
 serv_http_esp8266.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 serv_http_esp8266.elf: /home/kali/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 serv_http_esp8266.elf: CMakeFiles/serv_http_esp8266.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Linking CXX executable serv_http_esp8266.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kali/pico/serv_http_esp8266/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking CXX executable serv_http_esp8266.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serv_http_esp8266.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/kali/pico/serv_http_esp8266/build/serv_http_esp8266.elf > serv_http_esp8266.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/kali/pico/serv_http_esp8266/build/serv_http_esp8266.elf >> serv_http_esp8266.dis

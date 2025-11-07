@@ -148,6 +148,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/kali/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "/home/kali/pico/pico-sdk/src/rp2040/boot_stage2/include"
   "/home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+  "/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 
 # The set of dependency files which are needed:
@@ -185,6 +186,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d"
   "/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d"
   "/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d"
+  "/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d"
   "/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d"
   "/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d"
   "/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d"
@@ -223,6 +225,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
   "/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   "/home/kali/pico/serv_http_esp8266/lib/Esp8266HttpServer.cpp" "CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o.d"
+  "/home/kali/pico/serv_http_esp8266/lib/MPU6050.cpp" "CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o.d"
+  "/home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.cpp" "CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o.d"
   "/home/kali/pico/serv_http_esp8266/main.cpp" "CMakeFiles/serv_http_esp8266.dir/main.cpp.o" "gcc" "CMakeFiles/serv_http_esp8266.dir/main.cpp.o.d"
   )
 

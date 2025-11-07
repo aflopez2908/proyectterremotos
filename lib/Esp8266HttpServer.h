@@ -28,6 +28,10 @@ public:
     bool send_earthquake_data(float accel_x, float accel_y, float accel_z, 
                              float magnitude, bool is_earthquake);
 
+    // Cliente HTTP para API externa
+    bool http_post_json(const char* host, int port, const char* path, 
+                       const char* json_data);
+
 private:
     bool get_buzzer = false;
     uint32_t last_api_send = 0;
@@ -49,10 +53,6 @@ private:
 
     // CIPMUX=1, CIPSERVER=1,80 (+ CIPSTO). Imprime estado.
     bool start_server();
-
-    // Cliente HTTP para API externa
-    bool http_post_json(const char* host, int port, const char* path, 
-                       const char* json_data);
     
     // Simulación del sensor MPU6050
     void read_mpu6050(float* accel_x, float* accel_y, float* accel_z);

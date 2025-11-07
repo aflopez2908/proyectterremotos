@@ -107,4 +107,59 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: \
  /usr/include/newlib/c++/14.2.1/bits/cxxabi_forced.h \
  /usr/include/newlib/c++/14.2.1/bits/string_view.tcc \
  /home/kali/pico/serv_http_esp8266/Config.h \
- /home/kali/pico/serv_http_esp8266/web_page.hpp
+ /home/kali/pico/serv_http_esp8266/web_page.hpp \
+ /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
+ /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /usr/include/newlib/c++/14.2.1/cmath \
+ /usr/include/newlib/c++/14.2.1/math.h /usr/include/newlib/math.h \
+ /usr/include/newlib/c++/14.2.1/bits/std_abs.h \
+ /usr/include/newlib/c++/14.2.1/stdlib.h /usr/include/newlib/stdlib.h \
+ /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
+ /usr/include/newlib/c++/14.2.1/bits/specfun.h \
+ /usr/include/newlib/c++/14.2.1/limits \
+ /usr/include/newlib/c++/14.2.1/tr1/gamma.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/special_function_util.h \
+ /usr/include/newlib/c++/14.2.1/tr1/bessel_function.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/beta_function.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/ell_integral.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/exp_integral.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/hypergeometric.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/legendre_function.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/modified_bessel_func.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/poly_hermite.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/poly_laguerre.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/riemann_zeta.tcc \
+ /home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.h \
+ /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
+ /home/kali/pico/serv_http_esp8266/lib/../Config.h \
+ /usr/include/newlib/c++/14.2.1/queue \
+ /usr/include/newlib/c++/14.2.1/deque \
+ /usr/include/newlib/c++/14.2.1/bits/allocator.h \
+ /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++allocator.h \
+ /usr/include/newlib/c++/14.2.1/bits/new_allocator.h \
+ /usr/include/newlib/c++/14.2.1/new \
+ /usr/include/newlib/c++/14.2.1/bits/exception.h \
+ /usr/include/newlib/c++/14.2.1/bits/stl_construct.h \
+ /usr/include/newlib/c++/14.2.1/bits/stl_uninitialized.h \
+ /usr/include/newlib/c++/14.2.1/ext/alloc_traits.h \
+ /usr/include/newlib/c++/14.2.1/bits/alloc_traits.h \
+ /usr/include/newlib/c++/14.2.1/bits/stl_deque.h \
+ /usr/include/newlib/c++/14.2.1/bits/refwrap.h \
+ /usr/include/newlib/c++/14.2.1/bits/invoke.h \
+ /usr/include/newlib/c++/14.2.1/bits/stl_function.h \
+ /usr/include/newlib/c++/14.2.1/backward/binders.h \
+ /usr/include/newlib/c++/14.2.1/bits/deque.tcc \
+ /usr/include/newlib/c++/14.2.1/bits/memory_resource.h \
+ /usr/include/newlib/c++/14.2.1/bits/uses_allocator.h \
+ /usr/include/newlib/c++/14.2.1/bits/uses_allocator_args.h \
+ /usr/include/newlib/c++/14.2.1/tuple \
+ /usr/include/newlib/c++/14.2.1/vector \
+ /usr/include/newlib/c++/14.2.1/bits/stl_vector.h \
+ /usr/include/newlib/c++/14.2.1/bits/stl_bvector.h \
+ /usr/include/newlib/c++/14.2.1/bits/vector.tcc \
+ /usr/include/newlib/c++/14.2.1/bits/stl_heap.h \
+ /usr/include/newlib/c++/14.2.1/bits/stl_queue.h \
+ /usr/include/newlib/c++/14.2.1/cstdio /usr/include/newlib/stdio.h \
+ /usr/include/newlib/sys/stdio.h

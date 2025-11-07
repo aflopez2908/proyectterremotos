@@ -109,4 +109,22 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o: \
  /home/kali/pico/serv_http_esp8266/web_page.hpp \
  /usr/include/newlib/c++/14.2.1/cstdio /usr/include/newlib/stdio.h \
  /usr/include/newlib/sys/stdio.h /usr/include/newlib/c++/14.2.1/cctype \
- /usr/include/newlib/ctype.h
+ /usr/include/newlib/ctype.h /usr/include/newlib/c++/14.2.1/cmath \
+ /usr/include/newlib/c++/14.2.1/math.h /usr/include/newlib/math.h \
+ /usr/include/newlib/c++/14.2.1/bits/std_abs.h \
+ /usr/include/newlib/c++/14.2.1/stdlib.h /usr/include/newlib/stdlib.h \
+ /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
+ /usr/include/newlib/c++/14.2.1/bits/specfun.h \
+ /usr/include/newlib/c++/14.2.1/limits \
+ /usr/include/newlib/c++/14.2.1/tr1/gamma.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/special_function_util.h \
+ /usr/include/newlib/c++/14.2.1/tr1/bessel_function.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/beta_function.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/ell_integral.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/exp_integral.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/hypergeometric.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/legendre_function.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/modified_bessel_func.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/poly_hermite.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/poly_laguerre.tcc \
+ /usr/include/newlib/c++/14.2.1/tr1/riemann_zeta.tcc

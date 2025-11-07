@@ -19,6 +19,8 @@ pico_sdk_init()
 add_executable(serv_http_esp8266
     main.cpp
     lib/Esp8266HttpServer.cpp
+    lib/MPU6050.cpp
+    lib/SeismicMonitor.cpp
 )
 
 target_include_directories(serv_http_esp8266 PRIVATE
@@ -30,6 +32,7 @@ target_link_libraries(serv_http_esp8266
     pico_stdlib
     hardware_uart
     hardware_gpio
+    hardware_i2c
 )
 
 pico_enable_stdio_usb(serv_http_esp8266 1)

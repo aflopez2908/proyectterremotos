@@ -17,8 +17,8 @@ namespace cfg {
     inline uart_inst_t* UART() { return (UART_INDEX == 0) ? uart0 : uart1; }
 
     // ===== Wi-Fi (ESP8266 con firmware AT) =====
-    inline constexpr char WIFI_SSID[]       = "Felipe";
-    inline constexpr char WIFI_PASS[]       = "pipe1012";
+    inline constexpr char WIFI_SSID[]       = "Redmi Note 12S";     // 👈 CAMBIAR POR TU WIFI
+    inline constexpr char WIFI_PASS[]       = "david022211"; // 👈 CAMBIAR POR TU PASSWORD
 
     // ===== Parámetros AT / tiempos =====
     inline constexpr bool AT_DISABLE_ECHO   = true;     // ATE0
@@ -58,16 +58,29 @@ namespace cfg {
     inline constexpr int  MORSE_MAX_LEN    = 64;        // máx. caracteres aceptados
 
     // ===== API Externa =====
-    inline constexpr char API_HOST[]       = "tu-api.com";
-    inline constexpr int  API_PORT         = 443;       // HTTPS
-    inline constexpr char API_ENDPOINT[]   = "/api/earthquake";
+    inline constexpr char API_HOST[]       = "TU_IP_AQUI"; // 👈 CAMBIAR por la IP de tu máquina host
+    inline constexpr int  API_PORT         = 3000;        // Puerto del Express server
+    inline constexpr char API_ENDPOINT[]   = "/api/pico/sensor-data";
     inline constexpr char DEVICE_ID[]      = "pico_sensor_01";
     
-    // ===== Sensor MPU6050 (simulado) =====
+    // ===== Sensor MPU6050 =====
+    inline constexpr int   MPU6050_SDA_PIN = 16;          // GPIO16 para SDA (I2C)
+    inline constexpr int   MPU6050_SCL_PIN = 17;          // GPIO17 para SCL (I2C)
+    inline constexpr int   I2C_INSTANCE    = 0;           // i2c0
+    inline constexpr int   I2C_BAUD_RATE   = 400000;      // 400kHz
+    inline constexpr uint8_t MPU6050_ADDR  = 0x68;        // Dirección I2C del MPU6050
+    
+    // Umbrales de detección
     inline constexpr float EARTHQUAKE_THRESHOLD = 15.0f; // m/s² para terremoto
     inline constexpr float VIBRATION_THRESHOLD  = 5.0f;  // m/s² para vibración menor
     inline constexpr int   SENSOR_READ_INTERVAL = 100;   // ms entre lecturas
-    inline constexpr int   API_SEND_INTERVAL   = 5000;   // ms entre envíos a API
+    inline constexpr int   API_SEND_INTERVAL   = 5000;   // ms entre envíos a API (eventos)
+    inline constexpr int   STATUS_SEND_INTERVAL = 30000; // ms entre envíos de estado
+    
+    // Filtros y calibración
+    inline constexpr float ACCEL_SCALE_FACTOR = 16384.0f; // LSB/g para rango ±2g
+    inline constexpr float GRAVITY = 9.81f;               // m/s²
+    inline constexpr int   CALIBRATION_SAMPLES = 100;     // muestras para calibración inicial
 
 } // namespace cfg
 

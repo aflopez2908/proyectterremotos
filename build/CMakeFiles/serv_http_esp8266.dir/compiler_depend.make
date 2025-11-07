@@ -1661,6 +1661,54 @@ CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
 
+CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c \
+  /home/kali/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kali/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kali/pico/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kali/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
+
 CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c \
   /home/kali/pico/pico-sdk/src/boards/include/boards/pico.h \
   /home/kali/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
@@ -3468,6 +3516,7 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o: /home/kali/pico/se
   /home/kali/pico/serv_http_esp8266/web_page.hpp \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/alloca.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
   /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
@@ -3489,6 +3538,8 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o: /home/kali/pico/se
   /usr/include/newlib/c++/14.2.1/bits/ptr_traits.h \
   /usr/include/newlib/c++/14.2.1/bits/range_access.h \
   /usr/include/newlib/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/newlib/c++/14.2.1/bits/specfun.h \
+  /usr/include/newlib/c++/14.2.1/bits/std_abs.h \
   /usr/include/newlib/c++/14.2.1/bits/stl_algobase.h \
   /usr/include/newlib/c++/14.2.1/bits/stl_iterator.h \
   /usr/include/newlib/c++/14.2.1/bits/stl_iterator_base_funcs.h \
@@ -3500,6 +3551,7 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o: /home/kali/pico/se
   /usr/include/newlib/c++/14.2.1/bits/version.h \
   /usr/include/newlib/c++/14.2.1/cassert \
   /usr/include/newlib/c++/14.2.1/cctype \
+  /usr/include/newlib/c++/14.2.1/cmath \
   /usr/include/newlib/c++/14.2.1/concepts \
   /usr/include/newlib/c++/14.2.1/cstddef \
   /usr/include/newlib/c++/14.2.1/cstdint \
@@ -3512,15 +3564,331 @@ CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.o: /home/kali/pico/se
   /usr/include/newlib/c++/14.2.1/ext/type_traits.h \
   /usr/include/newlib/c++/14.2.1/initializer_list \
   /usr/include/newlib/c++/14.2.1/iosfwd \
+  /usr/include/newlib/c++/14.2.1/limits \
+  /usr/include/newlib/c++/14.2.1/math.h \
   /usr/include/newlib/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/newlib/c++/14.2.1/stdlib.h \
   /usr/include/newlib/c++/14.2.1/string_view \
+  /usr/include/newlib/c++/14.2.1/tr1/bessel_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/beta_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/ell_integral.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/exp_integral.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/gamma.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/hypergeometric.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/legendre_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/modified_bessel_func.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/poly_hermite.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/poly_laguerre.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/riemann_zeta.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/special_function_util.h \
   /usr/include/newlib/c++/14.2.1/type_traits \
   /usr/include/newlib/ctype.h \
   /usr/include/newlib/machine/_default_types.h \
   /usr/include/newlib/machine/_types.h \
   /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/math.h \
   /usr/include/newlib/newlib.h \
   /usr/include/newlib/stdio.h \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/include/newlib/wchar.h \
+  /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
+
+CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o: /home/kali/pico/serv_http_esp8266/lib/MPU6050.cpp \
+  /home/kali/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kali/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/kali/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/kali/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kali/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /home/kali/pico/serv_http_esp8266/Config.h \
+  /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/alloca.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+  /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+  /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  /usr/include/newlib/c++/14.2.1/bit \
+  /usr/include/newlib/c++/14.2.1/bits/concept_check.h \
+  /usr/include/newlib/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/newlib/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/newlib/c++/14.2.1/bits/functexcept.h \
+  /usr/include/newlib/c++/14.2.1/bits/move.h \
+  /usr/include/newlib/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/newlib/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/newlib/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/newlib/c++/14.2.1/bits/specfun.h \
+  /usr/include/newlib/c++/14.2.1/bits/std_abs.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/newlib/c++/14.2.1/bits/utility.h \
+  /usr/include/newlib/c++/14.2.1/bits/version.h \
+  /usr/include/newlib/c++/14.2.1/cassert \
+  /usr/include/newlib/c++/14.2.1/cmath \
+  /usr/include/newlib/c++/14.2.1/concepts \
+  /usr/include/newlib/c++/14.2.1/cstdint \
+  /usr/include/newlib/c++/14.2.1/cstdio \
+  /usr/include/newlib/c++/14.2.1/debug/assertions.h \
+  /usr/include/newlib/c++/14.2.1/debug/debug.h \
+  /usr/include/newlib/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/newlib/c++/14.2.1/ext/type_traits.h \
+  /usr/include/newlib/c++/14.2.1/limits \
+  /usr/include/newlib/c++/14.2.1/math.h \
+  /usr/include/newlib/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/newlib/c++/14.2.1/stdlib.h \
+  /usr/include/newlib/c++/14.2.1/tr1/bessel_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/beta_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/ell_integral.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/exp_integral.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/gamma.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/hypergeometric.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/legendre_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/modified_bessel_func.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/poly_hermite.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/poly_laguerre.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/riemann_zeta.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/special_function_util.h \
+  /usr/include/newlib/c++/14.2.1/type_traits \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/math.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
+
+CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o: /home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.cpp \
+  /home/kali/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/kali/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/kali/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/kali/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/kali/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/kali/pico/serv_http_esp8266/Config.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /home/kali/pico/serv_http_esp8266/Config.h \
+  /home/kali/pico/serv_http_esp8266/lib/Esp8266HttpServer.h \
+  /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
+  /home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.h \
+  /home/kali/pico/serv_http_esp8266/web_page.hpp \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/alloca.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++allocator.h \
+  /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+  /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+  /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  /usr/include/newlib/c++/14.2.1/backward/binders.h \
+  /usr/include/newlib/c++/14.2.1/bit \
+  /usr/include/newlib/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/newlib/c++/14.2.1/bits/allocator.h \
+  /usr/include/newlib/c++/14.2.1/bits/char_traits.h \
+  /usr/include/newlib/c++/14.2.1/bits/concept_check.h \
+  /usr/include/newlib/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/newlib/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/newlib/c++/14.2.1/bits/deque.tcc \
+  /usr/include/newlib/c++/14.2.1/bits/exception.h \
+  /usr/include/newlib/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/newlib/c++/14.2.1/bits/functexcept.h \
+  /usr/include/newlib/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/newlib/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/newlib/c++/14.2.1/bits/invoke.h \
+  /usr/include/newlib/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/newlib/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/newlib/c++/14.2.1/bits/move.h \
+  /usr/include/newlib/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/newlib/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/newlib/c++/14.2.1/bits/postypes.h \
+  /usr/include/newlib/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/newlib/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/newlib/c++/14.2.1/bits/range_access.h \
+  /usr/include/newlib/c++/14.2.1/bits/refwrap.h \
+  /usr/include/newlib/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/newlib/c++/14.2.1/bits/specfun.h \
+  /usr/include/newlib/c++/14.2.1/bits/std_abs.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_deque.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_function.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_queue.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/newlib/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/newlib/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/newlib/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/newlib/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/newlib/c++/14.2.1/bits/utility.h \
+  /usr/include/newlib/c++/14.2.1/bits/vector.tcc \
+  /usr/include/newlib/c++/14.2.1/bits/version.h \
+  /usr/include/newlib/c++/14.2.1/cassert \
+  /usr/include/newlib/c++/14.2.1/cmath \
+  /usr/include/newlib/c++/14.2.1/concepts \
+  /usr/include/newlib/c++/14.2.1/cstddef \
+  /usr/include/newlib/c++/14.2.1/cstdint \
+  /usr/include/newlib/c++/14.2.1/cstdio \
+  /usr/include/newlib/c++/14.2.1/cstring \
+  /usr/include/newlib/c++/14.2.1/cwchar \
+  /usr/include/newlib/c++/14.2.1/debug/assertions.h \
+  /usr/include/newlib/c++/14.2.1/debug/debug.h \
+  /usr/include/newlib/c++/14.2.1/deque \
+  /usr/include/newlib/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/newlib/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/newlib/c++/14.2.1/ext/type_traits.h \
+  /usr/include/newlib/c++/14.2.1/initializer_list \
+  /usr/include/newlib/c++/14.2.1/iosfwd \
+  /usr/include/newlib/c++/14.2.1/limits \
+  /usr/include/newlib/c++/14.2.1/math.h \
+  /usr/include/newlib/c++/14.2.1/new \
+  /usr/include/newlib/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/newlib/c++/14.2.1/queue \
+  /usr/include/newlib/c++/14.2.1/stdlib.h \
+  /usr/include/newlib/c++/14.2.1/string_view \
+  /usr/include/newlib/c++/14.2.1/tr1/bessel_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/beta_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/ell_integral.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/exp_integral.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/gamma.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/hypergeometric.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/legendre_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/modified_bessel_func.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/poly_hermite.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/poly_laguerre.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/riemann_zeta.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/special_function_util.h \
+  /usr/include/newlib/c++/14.2.1/tuple \
+  /usr/include/newlib/c++/14.2.1/type_traits \
+  /usr/include/newlib/c++/14.2.1/vector \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/math.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/stdlib.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/_locale.h \
@@ -3550,6 +3918,7 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
@@ -3558,6 +3927,7 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
   /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
@@ -3573,6 +3943,7 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
   /home/kali/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /home/kali/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
   /home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   /home/kali/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
   /home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
@@ -3586,59 +3957,113 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
   /home/kali/pico/serv_http_esp8266/Config.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
+  /home/kali/pico/serv_http_esp8266/Config.h \
   /home/kali/pico/serv_http_esp8266/lib/Esp8266HttpServer.h \
+  /home/kali/pico/serv_http_esp8266/lib/MPU6050.h \
+  /home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.h \
   /home/kali/pico/serv_http_esp8266/web_page.hpp \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/alloca.h \
   /usr/include/newlib/assert.h \
+  /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++allocator.h \
   /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
   /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
   /usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  /usr/include/newlib/c++/14.2.1/backward/binders.h \
   /usr/include/newlib/c++/14.2.1/bit \
+  /usr/include/newlib/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/newlib/c++/14.2.1/bits/allocator.h \
   /usr/include/newlib/c++/14.2.1/bits/char_traits.h \
   /usr/include/newlib/c++/14.2.1/bits/concept_check.h \
   /usr/include/newlib/c++/14.2.1/bits/cpp_type_traits.h \
   /usr/include/newlib/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/newlib/c++/14.2.1/bits/deque.tcc \
+  /usr/include/newlib/c++/14.2.1/bits/exception.h \
   /usr/include/newlib/c++/14.2.1/bits/exception_defines.h \
   /usr/include/newlib/c++/14.2.1/bits/functexcept.h \
   /usr/include/newlib/c++/14.2.1/bits/functional_hash.h \
   /usr/include/newlib/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/newlib/c++/14.2.1/bits/invoke.h \
+  /usr/include/newlib/c++/14.2.1/bits/memory_resource.h \
   /usr/include/newlib/c++/14.2.1/bits/memoryfwd.h \
   /usr/include/newlib/c++/14.2.1/bits/move.h \
+  /usr/include/newlib/c++/14.2.1/bits/new_allocator.h \
   /usr/include/newlib/c++/14.2.1/bits/ostream_insert.h \
   /usr/include/newlib/c++/14.2.1/bits/postypes.h \
   /usr/include/newlib/c++/14.2.1/bits/predefined_ops.h \
   /usr/include/newlib/c++/14.2.1/bits/ptr_traits.h \
   /usr/include/newlib/c++/14.2.1/bits/range_access.h \
+  /usr/include/newlib/c++/14.2.1/bits/refwrap.h \
   /usr/include/newlib/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/newlib/c++/14.2.1/bits/specfun.h \
+  /usr/include/newlib/c++/14.2.1/bits/std_abs.h \
   /usr/include/newlib/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_deque.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_function.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_heap.h \
   /usr/include/newlib/c++/14.2.1/bits/stl_iterator.h \
   /usr/include/newlib/c++/14.2.1/bits/stl_iterator_base_funcs.h \
   /usr/include/newlib/c++/14.2.1/bits/stl_iterator_base_types.h \
   /usr/include/newlib/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_queue.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/newlib/c++/14.2.1/bits/stl_vector.h \
   /usr/include/newlib/c++/14.2.1/bits/string_view.tcc \
   /usr/include/newlib/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/newlib/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/newlib/c++/14.2.1/bits/uses_allocator_args.h \
   /usr/include/newlib/c++/14.2.1/bits/utility.h \
+  /usr/include/newlib/c++/14.2.1/bits/vector.tcc \
   /usr/include/newlib/c++/14.2.1/bits/version.h \
   /usr/include/newlib/c++/14.2.1/cassert \
+  /usr/include/newlib/c++/14.2.1/cmath \
   /usr/include/newlib/c++/14.2.1/concepts \
   /usr/include/newlib/c++/14.2.1/cstddef \
   /usr/include/newlib/c++/14.2.1/cstdint \
+  /usr/include/newlib/c++/14.2.1/cstdio \
   /usr/include/newlib/c++/14.2.1/cstring \
   /usr/include/newlib/c++/14.2.1/cwchar \
   /usr/include/newlib/c++/14.2.1/debug/assertions.h \
   /usr/include/newlib/c++/14.2.1/debug/debug.h \
+  /usr/include/newlib/c++/14.2.1/deque \
+  /usr/include/newlib/c++/14.2.1/ext/alloc_traits.h \
   /usr/include/newlib/c++/14.2.1/ext/numeric_traits.h \
   /usr/include/newlib/c++/14.2.1/ext/type_traits.h \
   /usr/include/newlib/c++/14.2.1/initializer_list \
   /usr/include/newlib/c++/14.2.1/iosfwd \
+  /usr/include/newlib/c++/14.2.1/limits \
+  /usr/include/newlib/c++/14.2.1/math.h \
+  /usr/include/newlib/c++/14.2.1/new \
   /usr/include/newlib/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/newlib/c++/14.2.1/queue \
+  /usr/include/newlib/c++/14.2.1/stdlib.h \
   /usr/include/newlib/c++/14.2.1/string_view \
+  /usr/include/newlib/c++/14.2.1/tr1/bessel_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/beta_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/ell_integral.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/exp_integral.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/gamma.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/hypergeometric.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/legendre_function.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/modified_bessel_func.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/poly_hermite.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/poly_laguerre.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/riemann_zeta.tcc \
+  /usr/include/newlib/c++/14.2.1/tr1/special_function_util.h \
+  /usr/include/newlib/c++/14.2.1/tuple \
   /usr/include/newlib/c++/14.2.1/type_traits \
+  /usr/include/newlib/c++/14.2.1/vector \
   /usr/include/newlib/machine/_default_types.h \
   /usr/include/newlib/machine/_types.h \
   /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/math.h \
   /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/stdlib.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/_locale.h \
@@ -3648,6 +4073,7 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
   /usr/include/newlib/sys/features.h \
   /usr/include/newlib/sys/lock.h \
   /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
   /usr/include/newlib/sys/string.h \
   /usr/include/newlib/wchar.h \
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
@@ -3658,9 +4084,61 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
 
 /home/kali/pico/serv_http_esp8266/main.cpp:
 
+/usr/include/newlib/c++/14.2.1/new:
+
+/usr/include/newlib/c++/14.2.1/ext/alloc_traits.h:
+
+/usr/include/newlib/c++/14.2.1/bits/vector.tcc:
+
+/usr/include/newlib/c++/14.2.1/bits/uses_allocator_args.h:
+
+/usr/include/newlib/c++/14.2.1/bits/stl_uninitialized.h:
+
+/usr/include/newlib/c++/14.2.1/bits/stl_queue.h:
+
+/usr/include/newlib/c++/14.2.1/bits/stl_heap.h:
+
+/usr/include/newlib/c++/14.2.1/bits/stl_function.h:
+
+/usr/include/newlib/c++/14.2.1/bits/stl_deque.h:
+
+/usr/include/newlib/c++/14.2.1/bits/stl_construct.h:
+
+/usr/include/newlib/c++/14.2.1/bits/new_allocator.h:
+
+/usr/include/newlib/c++/14.2.1/bits/memory_resource.h:
+
+/usr/include/newlib/c++/14.2.1/bits/exception.h:
+
+/usr/include/newlib/c++/14.2.1/bits/deque.tcc:
+
+/usr/include/newlib/c++/14.2.1/bits/alloc_traits.h:
+
+/usr/include/newlib/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++allocator.h:
+
+/home/kali/pico/serv_http_esp8266/lib/MPU6050.cpp:
+
 /usr/include/newlib/wchar.h:
 
 /usr/include/newlib/ctype.h:
+
+/usr/include/newlib/c++/14.2.1/tr1/riemann_zeta.tcc:
+
+/usr/include/newlib/c++/14.2.1/tr1/poly_hermite.tcc:
+
+/usr/include/newlib/c++/14.2.1/tr1/legendre_function.tcc:
+
+/usr/include/newlib/c++/14.2.1/tr1/hypergeometric.tcc:
+
+/usr/include/newlib/c++/14.2.1/tr1/gamma.tcc:
+
+/usr/include/newlib/c++/14.2.1/tr1/exp_integral.tcc:
+
+/usr/include/newlib/c++/14.2.1/tr1/beta_function.tcc:
+
+/usr/include/newlib/c++/14.2.1/tr1/bessel_function.tcc:
+
+/usr/include/newlib/c++/14.2.1/math.h:
 
 /usr/include/newlib/c++/14.2.1/iosfwd:
 
@@ -3694,11 +4172,15 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
 
 /usr/include/newlib/c++/14.2.1/bits/move.h:
 
+/usr/include/newlib/c++/14.2.1/bits/invoke.h:
+
 /usr/include/newlib/c++/14.2.1/bits/hash_bytes.h:
 
 /usr/include/newlib/c++/14.2.1/bits/functexcept.h:
 
 /usr/include/newlib/c++/14.2.1/bits/exception_defines.h:
+
+/usr/include/newlib/c++/14.2.1/bits/uses_allocator.h:
 
 /usr/include/newlib/c++/14.2.1/bits/cxxabi_forced.h:
 
@@ -3718,6 +4200,8 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
 
 /home/kali/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
 
+/home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.cpp:
+
 /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c:
 
 /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
@@ -3727,6 +4211,16 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
 /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c:
 
 /home/kali/pico/pico-sdk/src/rp2040/boot_stage2/include/boot_stage2/config.h:
+
+/home/kali/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+
+/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
+
+/home/kali/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+
+/home/kali/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
+
+/home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
 
 /home/kali/pico/pico-sdk/src/common/pico_sync/sem.c:
 
@@ -3772,11 +4266,15 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
 
+/usr/include/newlib/c++/14.2.1/tr1/modified_bessel_func.tcc:
+
 /usr/include/newlib/machine/_types.h:
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
 
 /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h:
+
+/usr/include/newlib/c++/14.2.1/tr1/poly_laguerre.tcc:
 
 /home/kali/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
 
@@ -3796,6 +4294,8 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
 
 /home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
 
+/home/kali/pico/serv_http_esp8266/lib/MPU6050.h:
+
 /usr/include/newlib/machine/_default_types.h:
 
 /home/kali/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
@@ -3804,11 +4304,15 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
 
 /home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
 
+/usr/include/newlib/c++/14.2.1/queue:
+
 /usr/include/newlib/c++/14.2.1/bits/stl_algobase.h:
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
 
 /home/kali/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c:
+
+/usr/include/newlib/c++/14.2.1/tr1/special_function_util.h:
 
 /home/kali/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
 
@@ -3839,8 +4343,6 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
 /usr/include/newlib/c++/14.2.1/stdlib.h:
 
 /home/kali/pico/pico-sdk/src/common/hardware_claim/claim.c:
-
-/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
 
 /home/kali/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
 
@@ -3885,6 +4387,8 @@ CMakeFiles/serv_http_esp8266.dir/main.cpp.o: /home/kali/pico/serv_http_esp8266/m
 /usr/include/newlib/_ansi.h:
 
 generated/pico_base/pico/version.h:
+
+/usr/include/newlib/c++/14.2.1/tuple:
 
 /home/kali/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
 
@@ -3964,6 +4468,8 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
 
+/usr/include/newlib/c++/14.2.1/vector:
+
 /home/kali/pico/pico-sdk/lib/tinyusb/src/tusb.h:
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
@@ -3971,6 +4477,8 @@ generated/pico_base/pico/config_autogen.h:
 /home/kali/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
 
 /home/kali/pico/pico-sdk/src/boards/include/boards/pico.h:
+
+/usr/include/newlib/c++/14.2.1/bits/allocator.h:
 
 /usr/include/newlib/stdio.h:
 
@@ -3981,6 +4489,8 @@ generated/pico_base/pico/config_autogen.h:
 /home/kali/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
 
 /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
+
+/usr/include/newlib/c++/14.2.1/bits/specfun.h:
 
 /usr/include/newlib/sys/cdefs.h:
 
@@ -4003,8 +4513,6 @@ generated/pico_base/pico/config_autogen.h:
 /usr/include/newlib/string.h:
 
 /usr/include/newlib/newlib.h:
-
-/home/kali/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
 
 /home/kali/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c:
 
@@ -4035,6 +4543,8 @@ generated/pico_base/pico/config_autogen.h:
 /home/kali/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
 
 /usr/include/newlib/sys/lock.h:
+
+/usr/include/newlib/c++/14.2.1/cmath:
 
 /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
 
@@ -4102,9 +4612,9 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c:
 
-/usr/include/newlib/time.h:
+/usr/include/newlib/c++/14.2.1/bits/stl_vector.h:
 
-/home/kali/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
+/usr/include/newlib/time.h:
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
 
@@ -4128,6 +4638,8 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kali/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c:
 
+/home/kali/pico/serv_http_esp8266/lib/SeismicMonitor.h:
+
 /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
 
 /home/kali/pico/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
@@ -4138,9 +4650,7 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kali/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
 
-/home/kali/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
-
-/home/kali/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+/usr/include/newlib/c++/14.2.1/tr1/ell_integral.tcc:
 
 /usr/include/newlib/c++/14.2.1/initializer_list:
 
@@ -4163,6 +4673,8 @@ generated/pico_base/pico/config_autogen.h:
 /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdatomic.h:
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
+
+/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
 
@@ -4192,9 +4704,27 @@ generated/pico_base/pico/config_autogen.h:
 
 /usr/include/newlib/sys/times.h:
 
+/usr/include/newlib/c++/14.2.1/bits/stl_bvector.h:
+
 /home/kali/pico/pico-sdk/lib/tinyusb/src/device/usbd.h:
 
 /home/kali/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h:
+
+/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
+
+/home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
+
+/home/kali/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
+
+/home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
+
+/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
+
+/home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
+
+/home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
+
+/home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
 
 /home/kali/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h:
 
@@ -4214,17 +4744,13 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kali/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c:
 
-/home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
-
-/home/kali/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
-
-/home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
-
 /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
 
 /home/kali/pico/pico-sdk/src/rp2_common/pico_printf/printf.c:
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
+
+/usr/include/newlib/c++/14.2.1/limits:
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
 
@@ -4242,13 +4768,13 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
 
-/home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
-
 /home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
 
 /usr/lib/gcc/arm-none-eabi/14.2.1/include/float.h:
 
 /home/kali/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
+
+/usr/include/newlib/c++/14.2.1/bits/refwrap.h:
 
 /home/kali/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
 
@@ -4270,6 +4796,8 @@ generated/pico_base/pico/config_autogen.h:
 
 /usr/include/newlib/c++/14.2.1/pstl/pstl_config.h:
 
+/usr/include/newlib/c++/14.2.1/backward/binders.h:
+
 /home/kali/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c:
 
 /home/kali/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
@@ -4280,6 +4808,8 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kali/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h:
 
+/usr/include/newlib/c++/14.2.1/deque:
+
 /home/kali/pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
 
 /home/kali/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c:
@@ -4289,5 +4819,3 @@ generated/pico_base/pico/config_autogen.h:
 /home/kali/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h:
 
 /home/kali/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c:
-
-/home/kali/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:

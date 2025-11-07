@@ -1007,6 +1007,30 @@ home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_http_esp8266.dir/build.make CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
+home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o
+
+# target to build an object file
+home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_http_esp8266.dir/build.make CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+
+home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_http_esp8266.dir/build.make CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_http_esp8266.dir/build.make CMakeFiles/serv_http_esp8266.dir/home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o
 
@@ -1999,6 +2023,54 @@ lib/Esp8266HttpServer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_http_esp8266.dir/build.make CMakeFiles/serv_http_esp8266.dir/lib/Esp8266HttpServer.cpp.s
 .PHONY : lib/Esp8266HttpServer.cpp.s
 
+lib/MPU6050.o: lib/MPU6050.cpp.o
+.PHONY : lib/MPU6050.o
+
+# target to build an object file
+lib/MPU6050.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_http_esp8266.dir/build.make CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.o
+.PHONY : lib/MPU6050.cpp.o
+
+lib/MPU6050.i: lib/MPU6050.cpp.i
+.PHONY : lib/MPU6050.i
+
+# target to preprocess a source file
+lib/MPU6050.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_http_esp8266.dir/build.make CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.i
+.PHONY : lib/MPU6050.cpp.i
+
+lib/MPU6050.s: lib/MPU6050.cpp.s
+.PHONY : lib/MPU6050.s
+
+# target to generate assembly for a file
+lib/MPU6050.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_http_esp8266.dir/build.make CMakeFiles/serv_http_esp8266.dir/lib/MPU6050.cpp.s
+.PHONY : lib/MPU6050.cpp.s
+
+lib/SeismicMonitor.o: lib/SeismicMonitor.cpp.o
+.PHONY : lib/SeismicMonitor.o
+
+# target to build an object file
+lib/SeismicMonitor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_http_esp8266.dir/build.make CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.o
+.PHONY : lib/SeismicMonitor.cpp.o
+
+lib/SeismicMonitor.i: lib/SeismicMonitor.cpp.i
+.PHONY : lib/SeismicMonitor.i
+
+# target to preprocess a source file
+lib/SeismicMonitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_http_esp8266.dir/build.make CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.i
+.PHONY : lib/SeismicMonitor.cpp.i
+
+lib/SeismicMonitor.s: lib/SeismicMonitor.cpp.s
+.PHONY : lib/SeismicMonitor.s
+
+# target to generate assembly for a file
+lib/SeismicMonitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_http_esp8266.dir/build.make CMakeFiles/serv_http_esp8266.dir/lib/SeismicMonitor.cpp.s
+.PHONY : lib/SeismicMonitor.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -2138,6 +2210,9 @@ help:
 	@echo "... home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
 	@echo "... home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/kali/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o"
+	@echo "... home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
+	@echo "... home/kali/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
 	@echo "... home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o"
 	@echo "... home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/kali/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
@@ -2262,6 +2337,12 @@ help:
 	@echo "... lib/Esp8266HttpServer.o"
 	@echo "... lib/Esp8266HttpServer.i"
 	@echo "... lib/Esp8266HttpServer.s"
+	@echo "... lib/MPU6050.o"
+	@echo "... lib/MPU6050.i"
+	@echo "... lib/MPU6050.s"
+	@echo "... lib/SeismicMonitor.o"
+	@echo "... lib/SeismicMonitor.i"
+	@echo "... lib/SeismicMonitor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
