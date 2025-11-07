@@ -47,7 +47,7 @@ namespace cfg {
     inline constexpr int  PIN_GPIO2         = 6;        // GP6 - Pin IO2 del ESP8266 (HIGH para boot normal)        
 
     // ===== API Externa =====
-    inline constexpr char API_HOST[]       = "10.79.128.46";  // IP de tu computadora en la red WiFi
+    inline constexpr char API_HOST[]       = "192.168.56.1";  // IP de tu servidor backend
     inline constexpr int  API_PORT         = 3000;             
     inline constexpr char API_ENDPOINT[]   = "/api/pico/sensor-data";
     inline constexpr char DEVICE_ID[]      = "pico_sensor_01";

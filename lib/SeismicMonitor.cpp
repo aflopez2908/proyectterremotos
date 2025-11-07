@@ -87,7 +87,8 @@ void SeismicMonitor::loop() {
     // 2. Enviar lecturas continuas del sensor al API (cada 5 segundos)
     if (current_time - last_api_send >= cfg::API_SEND_INTERVAL) {
         if (is_wifi_connected()) {
-            send_continuous_sensor_data_to_api(data);
+            SensorData current_data = get_current_sensor_data();
+            send_continuous_sensor_data_to_api(current_data);
             last_api_send = current_time;
         }
     }
